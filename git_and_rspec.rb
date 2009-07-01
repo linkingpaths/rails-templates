@@ -44,9 +44,9 @@ plugin 'exception_notifier', :git => 'git://github.com/rails/exception_notificat
 
 
 # gems  
-gem 'mislav-will_paginate'
-gem 'ruby-openid'
-gem 'rubyist-aasm'      
+gem 'mislav-will_paginate', :lib => 'will_paginate', :source => 'http://gems.github.com'
+gem 'ruby-openid', :lib => 'openid', :source => 'http://gems.github.com'  
+gem 'rubyist-aasm', :lib => 'aasm', :source => 'http://gems.github.com'       
 rake "gems:install", :sudo => true
  
 # gems  
